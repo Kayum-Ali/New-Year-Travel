@@ -504,6 +504,9 @@ hr {
     margin: 50px auto 100px;
     background-color: none;
 }
+.f-img{
+    width: 100%;
+}
 
 
 /* footer section end */
