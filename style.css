@@ -12,7 +12,7 @@
     --primary-color: #424247;
 }
 
-/* header style */
+/* header style start */
 header {
     width: 90vw;
     margin: 50px auto;
@@ -78,6 +78,95 @@ header {
     color: #FF5400;
     font-weight: 400;
 }
+/* header style end */
+
+/* banner style start  */
+
+
+.banner-container {
+    background-image: url('Images/Group-13.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+   
+}
+.banner-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding: 100px 200px 20px;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 200px 40px;
+}
+
+.btn {
+    display: inline-flex;
+    width: 70vw;
+    padding: 16px;
+    align-items: center;
+    gap: 15px;
+    border-radius: 8px;
+    margin-bottom: 100px;
+    background: rgba(255, 255, 255, 0.30);
+    
+}
+
+
+.banner-input {
+    padding: 16px 40px 16px 16px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 25%;
+    
+}
+#banner-input{
+    padding: 16px 40px 16px 16px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 25%;
+
+}
+
+
+.search {
+    padding: 16px 16px 16px 40px;
+    width: 25%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-weight: 700;
+    margin: 10px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    position: relative;
+}
+.fa-solid {
+    position: absolute;
+    top: 18px;
+    left: 35px;
+    
+}
+
+
+/* banner style end */
+
 
 
 /* responsive style */
@@ -98,5 +187,40 @@ header {
 
 
     /* banner responsive */
+    .banner-container {
+        width: 90vw;
+    }
+    .banner-title {
+        padding: 20px 40px;
+        font-size: 22px;
+    }
+    .banner-description {
+        padding: 0px 15px 30px;
+    }
+    .btn {
+        display: flex;
+        width: 70vw;
+        padding: 16px;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .btn-container{
+        padding: 30px;
+    }
+    .search{
+        position: relative;
+    }
+    .fa-solid {
+        position: absolute;
+        top: 18px;
+        left: 157px;
+        
+    }
+    .banner-input, .search, #banner-input {
+        width: 100%;
+    }
+   
 
 }
