@@ -258,7 +258,18 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    position: relative;
+    
 }
+.country{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+
 
 
 .row-3 {
@@ -349,6 +360,7 @@ img {
 
 .newsletter-container {
     display: grid;
+
     grid-template-columns: 4fr 6fr;
     gap: 20px;
     margin: 100px 0;
@@ -615,9 +627,12 @@ hr {
 
     /* newsletter section responsive */
     .newsletter-container {
-
+        width: 90%;
         grid-template-columns: repeat(1, 1fr);
 
+    }
+    .img-part img{
+        width: 100%;
     }
 
     .login-part button {
