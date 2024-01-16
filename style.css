@@ -411,7 +411,7 @@ hr {
 }
 
 .img-part {
-  
+
     border-radius: 16px;
     position: relative;
 }
@@ -446,6 +446,67 @@ hr {
 }
 
 /* newsletter style end  */
+
+/* footer section start  */
+.footer-container {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-logo img {
+    width: 100%;
+
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 100px;
+
+}
+
+.foot-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 70%;
+    margin: 15px auto;
+}
+
+.footer-icons {
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+
+}
+
+#icon {
+    padding-right: 20px;
+    margin: 20px auto 50px;
+}
+
+.hr {
+    width: 80%;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0 auto;
+}
+
+.copy {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin: 50px auto 100px;
+    background-color: none;
+}
+
+
+/* footer section end */
 
 
 
@@ -555,15 +616,19 @@ hr {
         grid-template-columns: repeat(1, 1fr);
 
     }
+
     .login-part button {
         padding: 14px 100px;
     }
-    .inner{
+
+    .inner {
         width: 50%;
         top: 150px;
         left: 200px;
     }
-    .subtitle, .inner-title {
+
+    .subtitle,
+    .inner-title {
         font-size: 20px;
     }
 
