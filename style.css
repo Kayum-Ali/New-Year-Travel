@@ -16,6 +16,8 @@
 header {
     width: 90vw;
     margin: 50px auto;
+   
+
 }
 
 main {
@@ -459,6 +461,76 @@ hr {
 
 /* newsletter style end  */
 
+/* service style start  */
+.service-row-1{
+    display: flex;
+    gap: 10px;
+    background-color: #EAEAEA;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.service-red{
+    width: 5px;
+    height: 100%;
+    background-color: #FF5400;
+}
+.service-head{
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px;
+    
+}
+
+.service-head::first-letter{
+    color: #FF9843;
+    font-size: 35px ;
+}
+
+.service-row-2{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.service-title{
+    padding: 40px 15px 10px;
+    text-align: center;
+    color: rgb(226, 80, 110);
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+}
+.service-description{
+    padding: 10px 10px 50px;
+    text-align: center;
+    color: white;
+    font-family: Mulish;
+    line-height: 26px;
+    text-overflow: ellipsis;
+}
+.black{
+    background-color: rgb(58, 58, 58);
+    opacity: 0.1px;
+    border-radius: 10px;
+}
+.tomato{
+    background-color: rgb(208, 43, 43);
+    opacity: 0.7px;
+    border-radius: 10px;
+}
+
+.hover:hover{
+    background-color: rgb(66, 148, 181);
+    color: white;
+    transition: all 0.5s ease-out ;
+}
+/* service style end */
+
 /* footer section start  */
 .footer-container {
     background: rgba(19, 19, 24, 0.05);
@@ -649,7 +721,14 @@ hr {
     .inner-title {
         font-size: 20px;
     }
-
+    /* service section responsive  */
+    .service-head{
+        font-size: 20px;
+    }
+    .service-row-2{
+        flex-direction: column;
+        
+    }
 
 
 
